@@ -1,15 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>测试你的浏览器支持Html5吗？</title>
-</head>
-<body>
-    <script>let support="非常棒！你的浏览器支持HTML5 video标签！",someSupport="支持HTML5 video标签的一部分",notSupport="对不起，您的浏览器不支持HTML5 video标签",vidTest=document.createElement("video"),result;if(!vidTest.canPlayType){result=notSupport}else{let oggTest=vidTest.canPlayType('video/ogg; codecs="theora, vorbis"'),h264Test=vidTest.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');if(!oggTest){if(!h264Test){result=notSupport}else{result=h264Test==="probably"?support:someSupport}}else{result=oggTest==="probably"?support:someSupport}}document.write(result);</script>
-    
-        
-      
-</body>
-</html>
+<!DOCTYPE html> <html lang=en> <head> <meta charset=UTF-8> <meta http-equiv=X-UA-Compatible content="IE=edge"> <meta name=viewport content="width=device-width,initial-scale=1"> <title>测试你的浏览器支持Html5吗？</title>  <body> <script>let support="非常棒！你的浏览器支持HTML5 video标签！",someSupport="支持HTML5 video标签的一部分",notSupport="对不起，您的浏览器不支持HTML5 video标签",vidTest=document.createElement("video"),result;if(!vidTest.canPlayType){result=notSupport}else{let oggTest=vidTest.canPlayType('video/ogg; codecs="theora, vorbis"'),h264Test=vidTest.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');if(!oggTest){if(!h264Test){result=notSupport}else{result=h264Test==="probably"?support:someSupport}}else{result=oggTest==="probably"?support:someSupport}}document.write(result);</script>
