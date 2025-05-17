@@ -1,8 +1,8 @@
 {
     "volumes": [
         {
-            "title": "第一卷",
-            "intro": "向新时代出发！",
+            "title": "向新时代出发！",
+            "intro": "第一卷：向新时代出发！",
             "chapters": [
                 {"title": "第一章 主席台", "file": "chapter1.json"},
                 {"title": "第二章 任务一 完成！", "file": "chapter2.json"},
