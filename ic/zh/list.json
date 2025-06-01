@@ -8,7 +8,8 @@
                 {"title": "第二章 任务一 完成！", "file": "chapter2.json"},
                 {"title": "第三章 十三天", "file": "chapter3.json"},
                 {"title": "第 四章 杀千刀的", "file": "chapter4.json"},
-                {"title": "第五 章 演技全部不合格", "file": "chapter5.json"}
+                {"title": "第五 章 演技全部不合格", "file": "chapter5.json"},
+                {"title":"第六章 月光照耀所有","file":"chapter6.json"}
             ]
         }
     ]
